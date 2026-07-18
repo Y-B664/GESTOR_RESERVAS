@@ -9,13 +9,17 @@ public class App {
             Menu.mostrar();
             opcion = Menu.leerOpcion(sc);
             switch (opcion) {
-            case 1 -> Operaciones.agendar(sc);;
-            case 2 -> System.out.println("En contruccion");
-            case 3 -> System.out.println("En contruccion");
-            case 4 -> System.out.println("En contruccion");
-            case 5 -> System.out.println("Gracias por utilizar el programa, has cerado tu turno.");
+            case 1 -> Operaciones.agendar(sc);
+            case 2 -> Operaciones.listar();
+            case 3 -> Operaciones.cancelar(sc);
+            case 4 -> Operaciones.reporte();
+            case 5 -> Operaciones.buscarPorCliente(sc);
+            case 6 -> Operaciones.editarHoraReserva(sc);
+            case 7 -> Operaciones.horarios();
+            case 8 -> Operaciones.servicioMasPedido();
+            case 9 -> System.out.println("Gracias por utilizar el programa, has cerrado tu turno.");
         }
-        }while(opcion!=5);
+        }while(opcion!=9);
         
         sc.close();
     }
