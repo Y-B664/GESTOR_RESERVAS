@@ -61,7 +61,8 @@ public class Operaciones {
         if (codigo<1 || codigo>contador) {
             System.out.println("Codigo no valido.");
             return;
-        }  
+        }
+        
 
 
 

@@ -9,7 +9,7 @@ public class App {
             Menu.mostrar();
             opcion = Menu.leerOpcion(sc);
             switch (opcion) {
-            case 1 -> System.out.println("En contruccion");
+            case 1 -> Operaciones.agendar(sc);;
             case 2 -> System.out.println("En contruccion");
             case 3 -> System.out.println("En contruccion");
             case 4 -> System.out.println("En contruccion");

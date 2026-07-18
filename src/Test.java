@@ -5,5 +5,8 @@ public static void main(String[] args) {
      for(int i : numeros){
         System.out.println(i);
      }
-     numeros[1]=0 ;
+     numeros[1]=-1 ;
+     for(int i : numeros){
+        System.out.println(i);
+     }
 }}
