@@ -126,6 +126,7 @@ public class Operaciones {
         if(Validador.noCitas(contador)){return;}
         System.out.println("Digite la reserva a editar segun su codigo.");
         listar();
+        System.out.print("Ingresar codigo: ");
         int codigo = sc.nextInt();
         if (codigo<1 || codigo>contador) {
             System.out.println("Codigo no valido.");
