@@ -18,6 +18,8 @@ public class App {
             case 7 -> Operaciones.horarios();
             case 8 -> Operaciones.servicioMasPedido();
             case 9 -> System.out.println("Gracias por utilizar el programa, has cerrado tu turno.");
+            default -> System.out.println("Esa opcion no se encuentra dentro del menu, intente nuevamente.");
+
         }
         }while(opcion!=9);
         
